@@ -1,0 +1,83 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background-image: url(../img/background.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+footer {
+    text-align:center;
+}
+#container {
+  margin:auto 10%;
+}
+
+#upper_header {
+  height:120px;
+  line-height: 120px;
+}
+
+#logo {
+  height:100px;
+  vertical-align:middle;
+}
+
+#title {
+  display:inline;
+  color:white;
+  vertical-align:middle;
+}
+
+.buttons {
+  border-radius:5px;
+  border:1px solid lightgrey;
+}
+
+#messages {
+  display: none;
+}
+
+#unread {
+  color:white;
+  line-height: 36px;
+}
+
+#unread_number {
+  display:inline-block;
+  padding:1px 7px;
+  border-radius:50%;
+  background-color:orange;
+  vertical-align:middle;
+}
+
+.all_emails {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+
+.single_email {
+  background-color:lightgrey;
+  border:2px solid black;
+}
+
+.emails_object, .emails_text {
+  display:inline;
+}
+
+.emails_text {
+  color:grey;
+}
+
+.checked_email {
+  background-color:white;
+}
+
+#app, #bye {
+  display:inline;
+  color:white;
+}

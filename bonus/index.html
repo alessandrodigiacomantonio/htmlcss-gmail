@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <!-- inizio corpo del documento -->
+  <body>
+    <div id="container">
+
+      <!-- inizio intestazione del documento -->
+      <header>
+        <section id="upper_header">
+          <img id="logo" src="img/gmail.png" alt="Logo del provider di posta elettronica Gmail, in particolare &egrave; raffigurata una lettera per la posta, bianca e rossa" title="Gmail">
+          <h1 id="title">Gmail</h1>
+        </section>
+        <hr class="divisor">
+        <section id="lower_header">
+          <!-- aggiunta di un h6 con "display:none" per togliere il Warning segnalato dal W3C checker, immagino che inserendolo, ci sia un vantaggio con il SEO -->
+          <h6 id="messages">Unreaded e-mails</h6>
+          <form id="search_bar">
+            <input type="text" name="search" value="" placeholder="Search">
+            <button class="buttons" type="submit" name="button">VAI</button>
+          </form>
+        </section>
+      </header>
+      <!-- fine intestazione del documento -->
+
+      <!-- inizio corpo del documento -->
+      <main>
+        <h3 id="unread"> You have <span id="unread_number">30</span> unread</h3>
+        <hr class="divisor">
+        <!-- ogni list item di questa lista, rappresenta una singola email -->
+        <ul class="all_emails">
+          <li class="single_email">
+            <input type="checkbox" name="selector" value="">
+            <h4 class="emails_object">&starf; Oggetto della e-mail</h4>
+            <p class="emails_text"> - testo della email...</p>
+          </li>
+          <li class="single_email checked_email">
+            <input type="checkbox" name="selector" value="">
+            <h4 class="emails_object">&starf; Oggetto della e-mail</h4>
+            <p class="emails_text"> - testo della email...</p>
+          </li>
+          <li class="single_email">
+            <input type="checkbox" name="selector" value="">
+            <h4 class="emails_object">&starf; Oggetto della e-mail</h4>
+            <p class="emails_text"> - testo della email...</p>
+          </li>
+          <li class="single_email">
+            <input type="checkbox" name="selector" value="">
+            <h4 class="emails_object">&starf; Oggetto della e-mail</h4>
+            <p class="emails_text"> - testo della email...</p>
+          </li>
+        </ul>
+        <!-- fine della lista che contiene le singole emails -->
+      </main>
+      <!-- fine corpo del documento -->
+
+      <hr class="divisor">
+
+      <!-- inizio conclusione del documento -->
+      <footer>
+        <h2 id="app">GMail</h2>
+        <h5 id="bye">powered by Alessandro</h5>
+      </footer>
+      <!-- fine conclusione del documento -->
+    </div>
+  </body>
+  <!-- fine corpo del documento -->
