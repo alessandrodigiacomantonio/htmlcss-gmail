@@ -1,39 +1,39 @@
-* {
-  box-sizing:border-box;
-  margin:0:
-  padding:0;
+*   {
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
 }
 
 body {
-  background-image: url(../img/background.png);
-  background-repeat:no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-image: url(../img/background.png);
 }
 
 #container {
-  margin:auto 10%;
+  margin: auto 10%;
 }
 
 #upper_header {
-  height:120px;
+  height: 120px;
   line-height: 120px;
 }
 
 #logo {
-  height:100px;
-  vertical-align:middle;
+  height: 100px;
+  vertical-align: middle;
 }
 
 #title {
-  display:inline;
-  color:white;
-  vertical-align:middle;
+  display: inline;
+  color: white;
+  vertical-align: middle;
 }
 
 .buttons {
-  border-radius:5px;
   border:1px solid lightgrey;
+  border-radius: 5px;
 }
 
 #messages {
@@ -41,46 +41,46 @@ body {
 }
 
 #unread {
-  color:white;
   line-height: 36px;
+  color: white;
 }
 
 #unread_number {
   display:inline-block;
-  padding:1px 7px;
-  border-radius:50%;
-  background-color:orange;
   vertical-align:middle;
+  border-radius: 50%;
+  padding: 1px 7px;
+  background-color: orange;
 }
 
 .all_emails {
-  list-style-type:none;
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
 }
 
 .single_email {
-  background-color:lightgrey;
   border:2px solid black;
+  background-color:lightgrey;
 }
 
 .emails_object, .emails_text {
-  display:inline;
+  display: inline;
 }
 
 .emails_text {
-  color:grey;
+  color: grey;
 }
 
 .checked_email {
-  background-color:white;
+  background-color: white;
 }
 
 footer {
-  text-align:center;
+  text-align: center;
 }
 
 #app, #bye {
-  display:inline;
-  color:white;
+  display: inline;
+  color: white;
 }
