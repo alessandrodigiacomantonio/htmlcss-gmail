@@ -1,5 +1,7 @@
 * {
   box-sizing:border-box;
+  margin:0:
+  padding:0;
 }
 
 body {
@@ -9,9 +11,6 @@ body {
   background-attachment: fixed;
 }
 
-footer {
-    text-align:center;
-}
 #container {
   margin:auto 10%;
 }
@@ -75,6 +74,10 @@ footer {
 
 .checked_email {
   background-color:white;
+}
+
+footer {
+  text-align:center;
 }
 
 #app, #bye {
